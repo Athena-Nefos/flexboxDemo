@@ -1,0 +1,99 @@
+.flexContainer{
+  border: solid black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.flexItem{
+  border: solid grey;
+  height: 40px;
+  width: 40px;
+  
+}
+#box1{
+  background-color: red;
+}
+#box2{
+  background-color: orange;
+}
+#box3{
+  background-color: yellow;
+}
+#box4{
+  background-color: green;
+  /* margin-right: auto */
+}
+#box5{
+  background-color: blue;
+}
+#box6{
+  background-color: purple;
+}
+#box7{
+  background-color: pink;
+}
+#box8{
+  background-color: peru;
+}
+.parentOne{
+  border: dotted red;
+  display: flex;
+}
+.kid{
+  border: solid lime;
+  height: auto;
+  width: 75px;
+  text-align: center;
+  padding: 10px;
+}
+#k1 {
+  margin-right: auto
+}
+.parentTwo{
+  border: dotted red;
+  display: flex;
+}
+#k41 {
+  margin-right: auto
+}
+.parent3{
+  border: dotted red;
+  display: flex;
+}
+#k12 {
+  margin-left: auto
+}
+.parent4{
+  border: dotted red;
+  display: flex;
+  justify-content: center;
+}
+.parent5{
+  border: dotted red;
+  display: flex;
+  justify-content: space-between;
+}
+.parent6{
+  border: dotted red;
+  display: flex;
+}
+#k35 {
+  margin-right: auto;
+}
+.parent7{
+  border: dotted red;
+  display: flex;
+}
+#k36{
+  margin: auto;
+}
+.parent8{
+  border: dotted red;
+  display: flex;
+}
+#k27{
+  margin-left: auto;
+}
+#k37{
+  margin-right: auto;
+}
