@@ -97,3 +97,41 @@
 #k37{
   margin-right: auto;
 }
+.majorFlex{
+  border: solid blue;
+  margin: 2em;
+  height: 35vh;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flexKid{
+  border: solid green;
+  height: 90px;
+  width: 90px;
+}
+
+/* flexCard */
+.cardDeck{
+  height: auto;
+  width: auto;
+  border: solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-shrink: 1;
+
+}
+.card-body {
+  border: 1px solid black;
+  width: 300px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body p, .card-body h1 {
+  margin: 8px;
+}
