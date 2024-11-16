@@ -115,16 +115,22 @@
 .cardDeck{
   height: auto;
   width: auto;
-  border: solid black;
+  border: solid pink;
   display: flex;
   flex-wrap: wrap;
-  
-  
-
+  justify-content: space-between; 
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 10px; */
 }
 .card-body {
+  
   border: 1px solid black;
-  width: 300px;
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+  
 }
 
 .img-container img {
